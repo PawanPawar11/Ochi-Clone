@@ -8,7 +8,7 @@ function About() {
         to raise funds, sell products, explain complex ideas, and hire great
         people.
       </h1>
-      <div className="w-full flex border-t-[2px] pt-10 mt-20 border-[#A9C059]">
+      <div className="w-full flex border-t-[2px] pt-10 mt-12 border-[#A9C059]">
         <div className="w-1/2">
           <h1 className="text-[3.58vw]">Our approach:</h1>
           <button className="flex gap-10 items-center px-[1.8rem] py-[1rem] bg-[#212121] mt-3 rounded-full text-white text-sm uppercase">
@@ -16,9 +16,9 @@ function About() {
             <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[74vh] rounded-xl overflow-hidden">
+        <div className="w-1/2 h-[74vh] mt-2 rounded-xl overflow-hidden">
           <img
-            className="object-cover w-full h-full block"
+            className="object-cover bg-center w-full h-full block"
             src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg"
             alt=""
           />
