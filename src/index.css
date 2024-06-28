@@ -11,3 +11,7 @@
   font-family: FoundersGrotesk;
   src: url(./assets/fonts/FoundersGrotesk-Semibold.ttf);
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}

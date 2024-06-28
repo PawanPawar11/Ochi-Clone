@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { PiArrowUp } from "react-icons/pi";
 
@@ -10,7 +11,18 @@ function LandingPage() {
             <div className="masker">
               <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
-                  <div className="mr-[1vw] w-[9vw] rounded-md h-[5.8vw] relative bg-red-500"></div>
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "9vw" }}
+                    transition={{ ease: [0.76, 0, 0.24, 1], duration: 1.5 }}
+                    className="mr-[1vw] w-[9vw] rounded-md h-[5.8vw] relative overflow-hidden"
+                  >
+                    <img
+                      className="w-full h-full object-cover bg-center"
+                      src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
+                      alt=""
+                    />
+                  </motion.div>
                 )}
                 <h1 className="flex items-center uppercase text-[8.3rem] leading-[6.25rem] font-semibold font-['FoundersGrotesk']">
                   {item}
