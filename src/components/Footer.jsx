@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-blue-400 font-NeueMontreal text-[#212121] px-[3.375rem] py-[6.625]">
+    <div className="font-NeueMontreal text-[#212121] px-[3.375rem] py-[6.625]">
       <div className="w-full h-screen flex">
         <div className="w-1/2 font-FoundersGrotesk leading-[6.7rem] mt-[3.2rem]">
           <h1 className="uppercase text-[8.313rem]">Eye-</h1>
@@ -63,9 +63,13 @@ function Footer() {
             <h6 className="mb-5 mt-10">E:</h6>
             <a href="">hello@ochi.design</a>
           </div>
+          <div className="flex opacity-30 mt-10 items-center justify-between">
+            <h4>&copy; ochi design 2024. Legal Terms</h4>
+            <h4>Website by Obys</h4>
+          </div>
         </div>
       </div>
-      <div className="flex items-center justify-between mt-10 bg-red-400">
+      <div className="logo py-10">
         <svg
           width="72"
           height="30"
@@ -94,8 +98,6 @@ function Footer() {
             fill="currentColor"
           ></path>
         </svg>
-        <h4>&copy; ochi design 2024. Legal Terms</h4>
-        <h4>Website by Obys</h4>
       </div>
     </div>
   );
