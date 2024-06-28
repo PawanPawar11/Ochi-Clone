@@ -4,7 +4,12 @@ import { PiArrowUp } from "react-icons/pi";
 
 function LandingPage() {
   return (
-    <div className="w-full h-screen pt-1 text-[#212121]">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.3"
+      className="w-full h-screen pt-1 text-[#212121]"
+    >
       <div className="textstructure mt-40 px-20">
         {["We Create", "Eye-Opening", "Presentation"].map((item, index) => {
           return (
